@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello Awari</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/javascript">
+      var e = React.createElement;
+
+      ReactDOM.render(
+        e('div',{id:'container'},'',e('h1',{id:'title'}, 'Awari'), e('ul',{id:'list'}, '' , e('li',null,'',e('span' ,{id:'link'},'Cursos')), e('li',null,'',e('span',{id:'link'}, 'Mentores')))),
+        document.getElementById('root')
+      );
+    </script>
+  </body>
+</html>
