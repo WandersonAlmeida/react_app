@@ -45,9 +45,24 @@
     
 }
 #main h1{
-    color:rgb(179, 41, 41);
+    
     font-size: 7em;
     margin: auto;
+    animation-duration: 5s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+}
+@keyframes slide{
+    0%{
+        color:rgb(196, 218, 213);
+    }
+    50%{
+        color:rgb(128, 118, 118);
+    }
+    80%{
+        color: black;
+    }
+
 }
 #footer{
     background-color: black;
